@@ -1,0 +1,141 @@
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: red;
+    text-align: center;
+    border-radius: 30px;
+
+}
+#titulo{
+    color: #FFC700;
+    text-align: center;
+    
+}
+#logo{
+    position: relative;
+    left: 75vh;
+    bottom: 6vh;
+    width: 9vh;
+}
+
+.toggle-menu {
+    display: none;
+}
+
+
+#menu {
+    cursor: pointer;
+    width: 80px;
+    display: flex;
+    justify-content: left;
+    position: relative;
+    bottom: 14vh;
+    left: 1vh;
+}
+
+
+.menu-lateral {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFC700;
+    overflow-x: hidden;
+    transition: width 0.5s;
+    padding-top: 60px;
+}
+
+
+.menu-lateral a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FF7A00;
+    display: block;
+    transition: color 0.3s;
+}
+
+.menu-lateral a:hover {
+    color: #f1f1f1;
+}
+
+
+.menu-lateral .fechar-menu {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.toggle-menu:checked ~ .menu-lateral {
+    width: 250px;
+}
+
+.iconesmenu{
+    border: solid;
+    background-color: #862E2E;
+    border-radius: 5px;
+   
+}
+body{
+background-color: #FF8A00;
+}
+#ping{
+    position: relative;
+    right: 30vh;
+}
+#tell{
+    position: relative;
+    right: 30vh;
+}
+#ig{
+    position: relative;
+    right: 30vh;
+}
+#local{
+    position: relative;
+    bottom: 7vh;
+    right: 10vh;
+}
+#cell{
+    position: relative;
+    bottom: 7vh;
+    right: 15vh;
+}
+#instagram{
+    position: relative;
+    bottom: 7vh;
+    right: 5vh;
+}
+#sugest{
+    position: relative;
+    background-origin: 7vh;
+    right: 4vh;
+}
+#txtsug{
+    position: relative;
+    top: 1vh;
+}
+#enviar{
+    color: black;
+    border: solid;
+    border-radius: 10px;
+    background-color: #FFC700;
+    justify-content: center;
+    position: relative;
+   
+}
+#voltarcardapio{
+
+color: black;
+    border: solid;
+    border-radius: 10px;
+    background-color: #FFC700;
+    justify-content: center;
+    position: relative;
+}
